@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    text-align: start;
+    background-color: #F0FFFF;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px lightgray solid;
+}
+.nav-text-list{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.logo{
+    display: flex;
+    gap:5px;
+}
+.content{
+    display: flex;
+    padding:10%
+}
+.body{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+aside{
+    width: 60%;
+}
+button{
+    text-align: center;
+    width: 25%;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 3px 2px black;
+}
